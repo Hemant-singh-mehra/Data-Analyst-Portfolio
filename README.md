@@ -29,10 +29,7 @@ A collection of SQL queries and Power BI dashboards showcasing data analysis ski
 
 ## 📊 Power BI Dashboards
 
-### 1. Retail Sales Dashboard
-Interactive dashboard analyzing retail sales performance — Sum of Sales, Sum of Profit, Sales by Region, Sales by Segment, and Sales by Executive, with slicers for Ship Mode, Category, and Date Range.
-
-### 2. Netflix Content Analytics Dashboard
+### 1. Netflix Content Analytics Dashboard
 Analyzed 9K+ Netflix titles (6K Movies, 3K TV Shows) using DAX measures for KPIs like Content Added (YTD/MTD), content rating breakdown, content growth trend (2014–2021), and top 10 content-producing countries — with Year and Rating slicers for interactive filtering.
 
 ---

@@ -1,9 +1,11 @@
 # Data-Analyst-Portfolio
-A collection of SQL queries and Power BI dashboards showcasing data analysis skills, including JOINs, CTEs, Window Functions, Subqueries, and interactive business dashboards built using retail and employee datasets.
+A collection of SQL queries, Power BI dashboards, and Excel VBA automation tools showcasing data analysis skills — including JOINs, CTEs, Window Functions, Subqueries, interactive business dashboards, and automated data processing built using retail and employee datasets.
+
+---
 
 ## 🗃️ SQL Projects
 
-### 1. Retail Sales & Order Analysis (retail_queries.sql)
+### 1. Retail Sales & Order Analysis (`retail_queries.sql`)
 **Objective:** Analyzed sales, profit, and delivery performance using retail order data.
 
 **Key Tasks & Queries:**
@@ -14,7 +16,7 @@ A collection of SQL queries and Power BI dashboards showcasing data analysis ski
 - Identified above-average performing categories using a Double CTE.
 - Built a master summary table using `SELECT INTO`.
 
-### 2. Employee Data Analysis (employees_queries.sql)
+### 2. Employee Data Analysis (`employees_queries.sql`)
 **Objective:** Analyzed department-wise salary trends, tenure, and workforce distribution.
 
 **Key Tasks & Queries:**
@@ -29,12 +31,27 @@ A collection of SQL queries and Power BI dashboards showcasing data analysis ski
 
 ## 📊 Power BI Dashboards
 
-### 1. Netflix Content Analytics Dashboard
+### Netflix Content Analytics Dashboard
 Analyzed 9K+ Netflix titles (6K Movies, 3K TV Shows) using DAX measures for KPIs like Content Added (YTD/MTD), content rating breakdown, content growth trend (2014–2021), and top 10 content-producing countries — with Year and Rating slicers for interactive filtering.
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
-**SQL:** Joins (Inner, Left), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions (RANK, DENSE_RANK), DATEDIFF, ISNULL/COALESCE, UNION ALL.
+## ⚙️ Excel VBA Automation
 
-**Power BI:** DAX Measures, Time Intelligence (YTD/MTD), Interactive Slicers, KPI Cards, Data Visualization.
+### 1. Data Splitter (`Data_Splitter_VBA.txt`)
+Automatically splits a master Excel dataset into separate workbooks based on a category column (e.g., splitting order data by state), using Loops, AutoFilter, and Workbook Objects.
+
+### 2. Data Compiler (`Data_Compiler_VBA.txt`)
+Consolidates multiple Excel workbooks into a single master workbook using a File Dialog to select source files, then automatically cleans up duplicate header rows after merging.
+
+**Impact:** These macros reduced manual reporting effort by approximately 40% and improved data processing accuracy.
+
+---
+
+## 🛠️ Tools & Skills Demonstrated
+
+**SQL:** Joins (Inner, Left), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions (RANK, DENSE_RANK), DATEDIFF, ISNULL/COALESCE, UNION ALL
+
+**Power BI:** DAX Measures, Time Intelligence (YTD/MTD), Interactive Slicers, KPI Cards, Data Visualization
+
+**Excel VBA:** Loops, AutoFilter, Workbook Objects, File Dialog, Macro Automation

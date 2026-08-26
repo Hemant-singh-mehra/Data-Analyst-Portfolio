@@ -1,0 +1,64 @@
+' ============================================================
+' DATA COMPILER MACRO
+' Purpose: Consolidates multiple Excel workbooks into a
+'          single master workbook, using a file dialog to
+'          select files and automatically cleaning up
+'          duplicate header rows after merging.
+' ============================================================
+
+Sub data_compiler()
+
+    Dim master As Workbook
+    Dim wkb As Workbook
+
+    Application.DisplayAlerts = False
+
+    With Application.FileDialog(msoFileDialogOpen)
+        .AllowMultiSelect = True
+        .Title = "Data Compiler"
+        .Show
+
+        Workbooks.Add
+        Set master = ActiveWorkbook
+
+        n = .SelectedItems.Count
+
+        ' Loop through each selected file
+        For i = 1 To n
+
+            Path = .SelectedItems(i)
+            Workbooks.Open (Path)
+            Set wkb = ActiveWorkbook
+
+            ' Copy the data from the source file
+            Sheets(1).Select
+            Range("a1").CurrentRegion.Copy
+
+            ' Paste it into the master workbook, below existing data
+            master.Activate
+            Sheets(1).Select
+
+            LR = Range("a1048576").End(xlUp).Row + 1
+            Range("A" & LR).PasteSpecial (xlPasteAll)
+            Range("a1").CurrentRegion.EntireColumn.AutoFit
+
+            wkb.Close
+            master.Activate
+
+        Next
+
+    End With
+
+    ' Clean up duplicate header rows created during the merge
+    master.Activate
+    Range("1:1").EntireRow.Delete
+    Range("a1").CurrentRegion.EntireColumn.AutoFit
+
+    Range("a1").CurrentRegion.AutoFilter Field:=1, Criteria1:="Date"
+    Range("a1").CurrentRegion.Offset(1, 0).EntireRow.Delete
+    Range("a1").CurrentRegion.AutoFilter
+    Range("a1").Select
+
+    MsgBox "Finish"
+
+End Sub

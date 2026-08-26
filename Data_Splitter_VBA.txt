@@ -1,0 +1,46 @@
+' ============================================================
+' DATA SPLITTER MACRO
+' Purpose: Automatically splits a master Excel dataset into
+'          separate workbooks based on a category column
+'          (e.g., splitting Orders data by State).
+' ============================================================
+
+Sub data_splitter()
+
+    Dim wkb As Workbook
+
+    Application.DisplayAlerts = False
+    Application.ScreenUpdating = False
+
+    ' Go to the "state" sheet which contains the unique list of states
+    Sheets("state").Select
+    n = Range("a1048576").End(xlUp).Row
+
+    ' Loop through each state in the list
+    For i = 1 To n
+
+        Sheets("state").Select
+        st = Range("a" & i).Value
+
+        ' Go to the "orders" sheet and filter by the current state
+        Sheets("orders").Select
+        Range("a1").CurrentRegion.AutoFilter Field:=11, Criteria1:=st
+        Range("a1").CurrentRegion.Copy
+
+        ' Create a new workbook and paste the filtered data
+        Workbooks.Add
+        Set wkb = ActiveWorkbook
+        Range("a1").PasteSpecial (xlPasteAll)
+        Range("a1").CurrentRegion.EntireColumn.AutoFit
+        ActiveSheet.Name = st
+
+        ' Save the new workbook with the state name as the file name
+        ThisWorkbook.Activate
+        wkb.SaveAs ("C:\Users\DF\Desktop\SLA\New Batches\files\" & st & ".xlsx")
+        wkb.Close
+
+    Next
+
+    MsgBox "Task completed"
+
+End Sub

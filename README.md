@@ -30,7 +30,7 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 ---
 
 ## 📈 Excel Dashboards
-### HR Analytics Dashboard (HR_Analytics_Dashboard.xlsx)
+### HR Analytics Dashboard (HR_Analytics_Dashboard)
 **Objective:** Analyzed employee data to identify workforce distribution patterns, employee attrition patterns, and salary trends across departments and job roles.
 
 ## Key Analysis & Features:

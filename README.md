@@ -61,7 +61,7 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 ## ⚙️ Excel VBA Automation
 
 ### 1. Data Splitter (`Data_Splitter_VBA.txt`)
-Automatically splits a master Excel dataset into separate workbooks based on a category column (e.g., splitting order data by state), using Loops, AutoFilter, and Workbook Objects.
+Automatically splits a master Excel dataset into separate workbooks based on State, using Loops, AutoFilter, and Workbook Objects.
 
 ### 2. Data Compiler (`Data_Compiler_VBA.txt`)
 Consolidates multiple Excel workbooks into a single master workbook using a File Dialog to select source files, then automatically cleans up duplicate header rows after merging.

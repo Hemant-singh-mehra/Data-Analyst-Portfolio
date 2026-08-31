@@ -14,7 +14,7 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Ranked top-performing categories per region using `DENSE_RANK` with `PARTITION BY`.
 - Classified orders by profitability using `CASE WHEN`.
 - Identified above-average performing categories using a Double CTE.
-- Built a master summary table using `SELECT INTO.
+- Built a master summary table using \`SELECT INTO.
 
 ### 2. Employee Data Analysis (employees_queries.sql)
 **Objective:** Analyzed department-wise salary trends, tenure, and workforce distribution.

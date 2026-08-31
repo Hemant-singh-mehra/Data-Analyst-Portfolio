@@ -1,5 +1,5 @@
 # Data-Analyst-Portfolio
-A collection of SQL queries built using retail and employee datasets, Power BI dashboard created from the Netflix dataset, Excel dashboard built using HR data, and Excel VBA automation tools using Data Splitter and Data Compiler.
+A collection of data analytics projects demonstrating practical skills in SQL, Excel, Power BI, and Excel VBA automation, including retail and employee data analysis, an HR Analytics dashboard, a Netflix Content Analytics dashboard, and Excel automation tools for data compilation and data splitting.
 
 ---
 
@@ -29,22 +29,32 @@ A collection of SQL queries built using retail and employee datasets, Power BI d
 
 ---
 
-📈 Excel Dashboards
+## 📈 Excel Dashboards
 ### HR Analytics Dashboard (HR_Analytics_Dashboard.xlsx)
-Objective: Analyzed comprehensive employee data to uncover workforce distribution patterns, employee attrition drivers, and salary trends across departments.
-Key Analysis & Features:
+Objective: Analyzed employee data to identify workforce distribution patterns, employee attrition patterns, and salary trends across departments and job roles.
 
--Analyzed department-wise and gender-wise employee distribution across the organization.
--Studied employee segmentation across various age groups to identify workforce demographics.
--Investigated employee attrition (Yes/No) and calculated average monthly income segmented by job roles.
--Developed a fully interactive Excel dashboard utilizing PivotTables, PivotCharts, and dynamic Slicers for real-time data filtering.
+## Key Analysis & Features:
+-Analyzed department-wise and gender-wise employee distribution.
+-Studied employee distribution across different age groups.
+-Analyzed employee attrition (Yes/No) across the workforce.
+-Calculated and analyzed average monthly income across different job roles.
+-Developed an interactive Excel dashboard using PivotTables, PivotCharts, and Slicers for dynamic data filtering.
 
 ---
 
 ## 📊 Power BI Dashboards
 
 ### Netflix Content Analytics Dashboard
-Analyzed 9K+ Netflix titles (6K Movies, 3K TV Shows) using DAX measures for KPIs like Content Added (YTD/MTD), content rating breakdown, content growth trend (2014–2021), and top 10 content-producing countries — with Year and Rating slicers for interactive filtering.
+## Objective: Analyzed the Netflix dataset to understand content distribution, ratings, growth trends, and country-wise content production.
+
+## Key Analysis & Features:
+-Analyzed 9K+ Netflix titles, including Movies and TV Shows.
+-Created KPI measures for Content Added YTD and MTD using DAX.
+-Analyzed content distribution by rating.
+-Created a content growth trend covering 2014–2021.
+-Identified the Top 10 content-producing countries.
+-Added Year and Rating slicers for interactive dashboard filtering.
+-Used DAX measures and interactive visualizations to present key insights.
 
 ---
 

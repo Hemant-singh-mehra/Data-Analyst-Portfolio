@@ -1,11 +1,11 @@
 # Data-Analyst-Portfolio
-A collection of SQL queries, Power BI dashboards, and Excel VBA automation tools showcasing data analysis skills — including JOINs, CTEs, Window Functions, Subqueries, interactive business dashboards, and automated data processing built using retail and employee datasets.
+A collection of SQL queries built using retail and employee datasets, Power BI dashboard created from the Netflix dataset, Excel dashboard built using HR data, and Excel VBA automation tools using Data Splitter and Data Compiler.
 
 ---
 
 ## 🗃️ SQL Projects
 
-### 1. Retail Sales & Order Analysis (`retail_queries.sql`)
+### 1. Retail Sales & Order Analysis (retail_queries.sql)
 **Objective:** Analyzed sales, profit, and delivery performance using retail order data.
 
 **Key Tasks & Queries:**
@@ -14,9 +14,9 @@ A collection of SQL queries, Power BI dashboards, and Excel VBA automation tools
 - Ranked top-performing categories per region using `DENSE_RANK` with `PARTITION BY`.
 - Classified orders by profitability using `CASE WHEN`.
 - Identified above-average performing categories using a Double CTE.
-- Built a master summary table using `SELECT INTO`.
+- Built a master summary table using `SELECT INTO.
 
-### 2. Employee Data Analysis (`employees_queries.sql`)
+### 2. Employee Data Analysis (employees_queries.sql)
 **Objective:** Analyzed department-wise salary trends, tenure, and workforce distribution.
 
 **Key Tasks & Queries:**
@@ -26,6 +26,18 @@ A collection of SQL queries, Power BI dashboards, and Excel VBA automation tools
 - Compared department averages against the company-wide average using a Double CTE.
 - Handled missing values using `ISNULL` and `COALESCE`.
 - Combined high-salary and senior-age employee lists using `UNION ALL`.
+
+---
+
+📈 Excel Dashboards
+### HR Analytics Dashboard (HR_Analytics_Dashboard.xlsx)
+Objective: Analyzed comprehensive employee data to uncover workforce distribution patterns, employee attrition drivers, and salary trends across departments.
+Key Analysis & Features:
+
+-Analyzed department-wise and gender-wise employee distribution across the organization.
+-Studied employee segmentation across various age groups to identify workforce demographics.
+-Investigated employee attrition (Yes/No) and calculated average monthly income segmented by job roles.
+-Developed a fully interactive Excel dashboard utilizing PivotTables, PivotCharts, and dynamic Slicers for real-time data filtering.
 
 ---
 
@@ -51,6 +63,8 @@ Consolidates multiple Excel workbooks into a single master workbook using a File
 ## 🛠️ Tools & Skills Demonstrated
 
 **SQL:** Joins (Inner, Left), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions (RANK, DENSE_RANK), DATEDIFF, ISNULL/COALESCE, UNION ALL
+
+**Excel Dashboards:** PivotTables, PivotCharts, Slicers, Dynamic Reporting, Data Modeling
 
 **Power BI:** DAX Measures, Time Intelligence (YTD/MTD), Interactive Slicers, KPI Cards, Data Visualization
 

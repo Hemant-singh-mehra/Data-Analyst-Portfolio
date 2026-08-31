@@ -31,7 +31,7 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 
 ## 📈 Excel Dashboards
 ### HR Analytics Dashboard (HR_Analytics_Dashboard.xlsx)
-Objective: Analyzed employee data to identify workforce distribution patterns, employee attrition patterns, and salary trends across departments and job roles.
+**Objective:** Analyzed employee data to identify workforce distribution patterns, employee attrition patterns, and salary trends across departments and job roles.
 
 ## Key Analysis & Features:
 - Analyzed department-wise and gender-wise employee distribution.
@@ -45,7 +45,7 @@ Objective: Analyzed employee data to identify workforce distribution patterns, e
 ## 📊 Power BI Dashboards
 
 ### Netflix Content Analytics Dashboard
-## Objective: Analyzed the Netflix dataset to understand content distribution, ratings, growth trends, and country-wise content production.
+**Objective:** Analyzed the Netflix dataset to understand content distribution, ratings, growth trends, and country-wise content production.
 
 ## Key Analysis & Features:
 - Analyzed 9K+ Netflix titles, including Movies and TV Shows.

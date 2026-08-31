@@ -34,11 +34,11 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 Objective: Analyzed employee data to identify workforce distribution patterns, employee attrition patterns, and salary trends across departments and job roles.
 
 ## Key Analysis & Features:
--Analyzed department-wise and gender-wise employee distribution.
--Studied employee distribution across different age groups.
--Analyzed employee attrition (Yes/No) across the workforce.
--Calculated and analyzed average monthly income across different job roles.
--Developed an interactive Excel dashboard using PivotTables, PivotCharts, and Slicers for dynamic data filtering.
+- Analyzed department-wise and gender-wise employee distribution.
+- Studied employee distribution across different age groups.
+- Analyzed employee attrition (Yes/No) across the workforce.
+- Calculated and analyzed average monthly income across different job roles.
+- Developed an interactive Excel dashboard using PivotTables, PivotCharts, and Slicers for dynamic data filtering.
 
 ---
 
@@ -48,13 +48,13 @@ Objective: Analyzed employee data to identify workforce distribution patterns, e
 ## Objective: Analyzed the Netflix dataset to understand content distribution, ratings, growth trends, and country-wise content production.
 
 ## Key Analysis & Features:
--Analyzed 9K+ Netflix titles, including Movies and TV Shows.
--Created KPI measures for Content Added YTD and MTD using DAX.
--Analyzed content distribution by rating.
--Created a content growth trend covering 2014–2021.
--Identified the Top 10 content-producing countries.
--Added Year and Rating slicers for interactive dashboard filtering.
--Used DAX measures and interactive visualizations to present key insights.
+- Analyzed 9K+ Netflix titles, including Movies and TV Shows.
+- Created KPI measures for Content Added YTD and MTD using DAX.
+- Analyzed content distribution by rating.
+- Created a content growth trend covering 2014–2021.
+- Identified the Top 10 content-producing countries.
+- Added Year and Rating slicers for interactive dashboard filtering.
+- Used DAX measures and interactive visualizations to present key insights.
 
 ---
 

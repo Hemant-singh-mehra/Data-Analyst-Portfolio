@@ -72,7 +72,7 @@ Consolidates multiple Excel workbooks into a single master workbook using a File
 
 ## 🛠️ Tools & Skills Demonstrated
 
-**SQL:** Joins (Inner, Left), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions (RANK, DENSE_RANK), DATEDIFF, ISNULL/COALESCE, UNION ALL
+**SQL:** SQL: Joins (Inner, Left, Right), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions (RANK, DENSE_RANK, ROW_NUMBER), DATEDIFF, DATEPART, ISNULL/COALESCE, UNION ALL, Views
 
 **Excel Dashboards:** PivotTables, PivotCharts, Slicers, Dynamic Reporting, Data Modeling
 

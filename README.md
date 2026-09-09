@@ -49,6 +49,10 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Analyzed employee attrition (Yes/No) across the workforce.
 - Calculated and analyzed average monthly income across different job roles.
 - Developed an interactive Excel dashboard using PivotTables, PivotCharts, and Slicers for dynamic data filtering.
+  
+**Key Insights:**
+-Overall attrition rate was 28.3% (416 of 1,470 employees), with Research & Development accounting for 65% of total headcount (961 employees).
+-Manager recorded the highest average monthly income at ₹17,181.68, with a workforce gender split of 60% male and 40% female.
 
 ---
 
@@ -67,7 +71,7 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Used DAX measures and interactive visualizations to present key insights.
   
 **Key Insights:**
-- Found Movies made up 69.65% of the catalog vs. 30.35% TV Shows, with content additions peaking in 2019.
+- Found that Movies made up 69.65% of the catalog vs. 30.35% TV Shows, with content additions peaking in 2019 before declining through 2021.
 - Identified TV-MA as the most common content rating and the United States as the leading content-producing country.
 
 ---

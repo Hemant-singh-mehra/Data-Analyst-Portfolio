@@ -17,7 +17,7 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Built a master summary table using SELECT INTO.
   
 **Key Insights:**
-- Central region recorded the highest sales (₹20,163) and order count among 3 regions.
+- Central region recorded the highest sales (₹20,163) among the 3 regions.
 - Office Supplies ranked #1 category by sales across all 3 regions.
 - Office Supplies was the only category performing above the overall average category sales.
 
@@ -90,7 +90,7 @@ Consolidates multiple Excel workbooks into a single master workbook using a File
 
 ## 🛠️ Tools & Skills Demonstrated
 
-**SQL:** SQL: Joins (Inner, Left, Right), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions (RANK, DENSE_RANK, ROW_NUMBER), DATEDIFF, DATEPART, ISNULL/COALESCE, UNION ALL, Views
+**SQL:** SQL: Joins (Inner, Left), GROUP BY, HAVING, Aggregate Functions, CASE WHEN, Subqueries, CTEs, Window Functions ( DENSE_RANK, ROW_NUMBER), DATEDIFF, DATEPART, ISNULL/COALESCE, UNION ALL, Views
 
 **Excel Dashboards:** PivotTables, PivotCharts, Slicers, Dynamic Reporting, Data Modeling
 

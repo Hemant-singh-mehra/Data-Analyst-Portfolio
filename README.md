@@ -15,6 +15,12 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Classified orders by profitability using `CASE WHEN`.
 - Identified above-average performing categories using a Double CTE.
 - Built a master summary table using SELECT INTO.
+  
+**Key Insights:**
+- Central region recorded the highest sales (₹20,163) and order count among 3 regions.
+- Office Supplies ranked #1 category by sales across all 3 regions.
+- Office Supplies was the only category performing above the overall average category sales.
+
 
 ### 2. Employee Data Analysis (employees_queries.sql)
 **Objective:** Analyzed department-wise salary trends, tenure, and workforce distribution.
@@ -26,6 +32,10 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Compared department averages against the company-wide average using a Double CTE.
 - Handled missing values using `ISNULL` and `COALESCE`.
 - Combined high-salary and senior-age employee lists using `UNION ALL`.
+
+**Key Insights:**
+- Analyzed 30,000 employees across 6 departments.
+- Support recorded the highest average salary (₹90,649.14); 4 departments performed above the company-wide average.
 
 ---
 
@@ -55,6 +65,10 @@ A collection of data analytics projects demonstrating practical skills in SQL, E
 - Identified the Top 10 content-producing countries.
 - Added Year and Rating slicers for interactive dashboard filtering.
 - Used DAX measures and interactive visualizations to present key insights.
+  
+**Key Insights:**
+- Found Movies made up 69.65% of the catalog vs. 30.35% TV Shows, with content additions peaking in 2019.
+- Identified TV-MA as the most common content rating and the United States as the leading content-producing country.
 
 ---
 
